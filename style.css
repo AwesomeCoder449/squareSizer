@@ -1,0 +1,51 @@
+.explanation{
+    background-color: turquoise;
+    color: black;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    animation-name: colorChanger;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.header{
+    color:black;
+    background-color: turquoise;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    animation-name: colorChanger;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChanger{
+    from{background-color: turquoise; color: black;}
+    to{background-color: #FFBE0B; color: white;}
+}
+@keyframes colorChangertext{
+    from{color: black;}
+    to{color: white;}
+}
+#footer{
+    bottom: 0;
+    position: fixed;
+    background-color: turquoise;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    animation-name: colorChangertext;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+video{
+    margin-left: 200px;
+}
+canvas{
+    border-color: gold;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style:ridge;
+    margin-top: 20px;
+}
